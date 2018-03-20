@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- 
+
  
  $(document).ready(function(){  
 
@@ -31,23 +30,5 @@ function goScroll(id){
 	
 	$("#go"+id).addClass("activate");	
 }
-=======
- 
- 
- $(document).ready(function(){  
-	
-	$("#topPresentation").animate(
-	{
-		left: '300px', 
-		opacity: '1' 
-	}, 
-		2000
-	); 
-	
-	console.log($( "body" ).scrollTop());
-	
-     
-	
-});
- 
->>>>>>> 47367d82400bb034987c92d7643e469e39276372
+
+
